@@ -45,7 +45,7 @@ On the next page, fill in these fields:<br />
 “password” – choose prompt. You will have to type it in every time you want to log in. It is not recommended to put the password in this configuration, as it is not very safe. <br />
 Click save
 
-![ssh FS](https://github.com/SchoofsKelvin/vscode-sshfs/raw/HEAD/media/config-editor.png)
+![ssh FS new](images/ssh_configure.png))
 
 4.	Log in<br />
 
@@ -54,12 +54,22 @@ In SSH FS, right click on the configured connection (upper left corner) and sele
 ![add as workspace folder](images/ssh_add_workspace.png)
 
 At prompt, put in password<br />	
-In the explorer, right click on the Workspace folder and click on **“open remote SSH terminal”**. 
+
+Now you should have your folders on the left side <br />	
+
+![folders](images/folders.png)
+
+Now you can open any file you want from the server and edit it as a normal file (eg, ctrl+F to search, ctrl+S to save). 
+
+You can also open the terminal by right clicking on the Workspace folder and click on **“open remote SSH terminal”**. 
 
 ![open terminal](images/ssh_open_terminal.png)
 
-It will not require a password prompt, since you already typed it in when you logged in to workspace folder. It should have started a terminal directly in `/data01/$USER` <br />	
+It will not require a password prompt, since you already typed it in when you logged in to workspace folder. It should have started a terminal directly in the root folder you chose `/scratch/eurac/$USER` <br />	
 
 ![terminal](images/terminal.png)
 
-### 
+### Finished editor 
+
+![finished](images/finished_window.png)
+
